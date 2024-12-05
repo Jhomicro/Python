@@ -1,4 +1,4 @@
-#Ejercicio 5: adivina un número 
+#Ejercicio 5: adivina un número
 import random
 
 aleatorio = random.randint(1,10)
