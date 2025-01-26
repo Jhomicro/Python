@@ -1,17 +1,4 @@
 import requests
-
-API_CONFIG_GODADDY = {
-    "OTE" : {
-        "API_KEY": "3mM44WkB29BzoS_FBBk6dHAAys5pEBApL9Pkh",
-        "API_SECRET": "9nJrpGj5tww1LGg3akx8ou",
-        "BASE_URL": "https://api.ote-godaddy.com/v1/"
-    },
-    "PRODUCTION": {
-                "API_KEY": "h1p3mzw6arXE_MYuZHaxSp1ahSEqueCP5D1",
-                "API_SECRET": "RBskDxNxCj9ZE1gY7hVVoY",
-                "BASE_URL": "https://api.godaddy.com/v1/",
-    }
-}
 def buscar_dominio_godaddy(dominio, environment="OTE"):
     """
     Realiza una busqueda de un dominio utilizando la api de Godaddy
